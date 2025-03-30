@@ -12,27 +12,33 @@ The following dependencies are required:
 ## Installation
 
 ### 1. Create a Virtual Environment
+Bash:
 ```bash
 python3 -m venv venv
 ```
+Windows:
 ```windows
 python -m venv venv
 ```
 
 ### 2. Install Dependencies
+Bash:
 ```bash
 pip install requests[socks] beautifulsoup4 spacy scikit-learn
 python3 -m spacy download en_core_web_sm
 ```
+Windows:
 ```windows
 pip install requests[socks] beautifulsoup4 spacy scikit-learn
 python3 -m spacy download en_core_web_sm
 ```
 
 ### 3. Activate the Virtual Environment
+Bash:
 ```bash
 source venv/bin/activate
 ```
+Windows:
 ```windows
 venv\Scripts\activate
 ```
