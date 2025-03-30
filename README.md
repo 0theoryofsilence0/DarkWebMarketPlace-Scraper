@@ -27,6 +27,8 @@ python3 -m spacy download en_core_web_sm
 source venv/bin/activate
 ```
 
+## 4. Create a folder Named Data
+
 ## Running the Scraper
 
 - **For Local Execution:**
