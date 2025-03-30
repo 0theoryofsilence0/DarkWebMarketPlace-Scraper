@@ -47,6 +47,7 @@ venv\Scripts\activate
 
 ## Running the Scraper
 
+Bash:
 - **For Local Execution:**
   ```bash
   python3 darkweb_scraper_local.py
@@ -55,5 +56,16 @@ venv\Scripts\activate
 - **For Live Execution:**
   ```bash
   python3 darkweb_scraper_live.py
+  ```
+
+Windows:
+- **For Local Execution:**
+  ```bash
+  python darkweb_scraper_local.py
+  ```
+
+- **For Live Execution:**
+  ```bash
+  python darkweb_scraper_live.py
   ```
 
