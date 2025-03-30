@@ -21,19 +21,7 @@ Windows:
 python -m venv venv
 ```
 
-### 2. Install Dependencies
-Bash:
-```bash
-pip install requests[socks] beautifulsoup4 spacy scikit-learn
-python3 -m spacy download en_core_web_sm
-```
-Windows:
-```windows
-pip install requests[socks] beautifulsoup4 spacy scikit-learn
-python3 -m spacy download en_core_web_sm
-```
-
-### 3. Activate the Virtual Environment
+### 2. Activate the Virtual Environment
 Bash:
 ```bash
 source venv/bin/activate
@@ -41,6 +29,18 @@ source venv/bin/activate
 Windows:
 ```windows
 venv\Scripts\activate
+```
+
+### 3. Install Dependencies
+Bash:
+```bash
+pip install requests[socks] beautifulsoup4 spacy scikit-learn
+python3 -m spacy download en_core_web_sm
+```
+Windows:
+```windows
+pip install requests[socks] beautifulsoup4 spacy scikit-learn
+python3 -m spacy download en_core_web_sm
 ```
 
 ## 4. Create a folder Named Data
